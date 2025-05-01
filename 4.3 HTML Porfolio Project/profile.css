@@ -1,0 +1,103 @@
+/* Global styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f8fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card wrapper using flex */
+  .card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  /* Individual card styling */
+  .card {
+    width: 300px;
+    background: linear-gradient(to bottom right, #e8f1ff, #ffffff);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Heading inside card */
+  .card h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    color: #0056b3;
+  }
+  
+  /* Subtext inside card */
+  .card p {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* Responsive image inside card */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 20px;
+    max-width: 180px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Image + content spacing */
+  .card img ~ * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  /* Project section styling */
+  h3 a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: 600;
+  }
+  
+  h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #e3f2fd;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Links in footer */
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Grid-style layout for projects (optional if needed later) */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem;
+  }
+  
