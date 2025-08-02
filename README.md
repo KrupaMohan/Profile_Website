@@ -13,13 +13,6 @@ A responsive personal portfolio website built with **HTML**, **CSS**, and **Java
 
 ---
 
-## **Demo**
-
-You can view a live demo [here](#)  
-*(Replace `#` with your deployed website link if available)*
-
----
-
 ## **Getting Started**
 
 ### **Clone the repository**
